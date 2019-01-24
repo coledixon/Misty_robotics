@@ -7,8 +7,8 @@ var ipAddress = document.getElementById("ip-address");
 var resultsBox = document.getElementById("results");
 var start = document.getElementById("start");
 
-var client;
-var ip;
+var client; // Misty
+var ip; // local IP address
 var msg = {
   "$id": "1",
   "Operation": "subscribe",
